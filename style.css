@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(black,red);
+}
+
+#personagem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-top: 50px;
+   
+}
+.linha{
+    margin: 15px;
+    text-align: center;
+    }
+.description{
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+
+.name2{
+    background-color: rgba(66, 66, 106, 0.085);
+    display: block;
+    width: 50%;
+    height: 50%;
+    color: black;
+}
+#botao{
+    background: linear-gradient(black, red);
+    color: rgb(6, 6, 6);
+    font-size: medium;
+    font-weight: bold;
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+#botao:hover{
+    background-color: rgb(246, 0, 0);
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+#marcio{
+    position: fixed;
+    display: flex;
+    top: 100px;
+    left: 300px;
+    height: 70%;
+    width: 50%; 
+    background: linear-gradient(rgba(255, 0, 0, 0.849),rgba(33, 33, 33, 0.952));
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    
+}
+.btn{
+    background-color: rgba(18, 18, 18, 0.004);
+    color: rgb(7, 7, 7);
+    font-size: 2rem;
+    position: absolute;
+    right:0;
+    top: 0;
+    border: none;
+    cursor: pointer;
+}
+h4{
+    font-size: large;
+    border-bottom: 2px solid;
+
+}
+p{
+    border-bottom: 1px solid;
+    font-weight: bold
+
+}
